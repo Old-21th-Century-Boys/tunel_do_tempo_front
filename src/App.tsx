@@ -1,9 +1,9 @@
+import RouteController from '@Routes/index';
+import { fetcher } from '@Services/api';
 import { BrowserRouter } from 'react-router-dom';
 import { SWRConfig } from 'swr';
 
 import { GlobalStyles } from './GlobalStyles';
-import RouteController from './routes';
-import { fetcher } from './services/api';
 
 const App = () => {
   return (

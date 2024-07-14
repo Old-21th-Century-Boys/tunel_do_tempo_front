@@ -1,4 +1,4 @@
-import { PageWrapper as Page } from '../../GlobalStyles';
+import { PageWrapper as Page } from '@/GlobalStyles';
 
 const Home = () => {
   return (

@@ -21,7 +21,20 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Alias configuration */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@Components/*": ["src/components/*"],
+      "@Contexts/*": ["src/contexts/*"],
+      "@Pages/*": ["src/pages/*"],
+      "@Routes/*": ["src/routes/*"],
+      "@Services/*": ["src/services/*"],
+      "@Types/*": ["src/types/*"],
+      "@Utils/*": ["src/utils/*"]
+    }
   },
-  "include": ["tunel_do_tempo_front/src"]
+  "include": ["./src"]
 }
