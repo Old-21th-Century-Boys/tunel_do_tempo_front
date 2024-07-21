@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import api from '../services/axiosConfig';
+import api from '../services/api';
 
 type Member = {
   id: number;
