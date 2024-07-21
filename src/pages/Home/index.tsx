@@ -1,11 +1,13 @@
 import './styles/tailwind.css';
 
-import { PageWrapper as Page } from '@/GlobalStyles';
+import MembersList from '@Components/MembersList';
+
+import { PageWrapper as Page } from './../../styles/GlobalStyles';
 
 const Home = () => {
   return (
     <Page>
-      <h1>Olá mundo, está é a página inicial</h1>
+      <MembersList />
     </Page>
   );
 };

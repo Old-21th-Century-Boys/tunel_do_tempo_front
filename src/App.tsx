@@ -3,7 +3,7 @@ import { fetcher } from '@Services/api';
 import { BrowserRouter } from 'react-router-dom';
 import { SWRConfig } from 'swr';
 
-import { GlobalStyles } from './GlobalStyles';
+import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
   return (
