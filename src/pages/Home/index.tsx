@@ -1,4 +1,4 @@
-import './styles/tailwind.css';
+import '@Styles/tailwind.css';
 
 import MembersList from '@Components/MembersList';
 

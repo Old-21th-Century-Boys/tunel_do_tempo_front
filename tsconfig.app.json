@@ -26,6 +26,7 @@
     /* Alias configuration */
     "baseUrl": ".",
     "paths": {
+      "@Styles/*": ["src/styles/*"],
       "@Components/*": ["src/components/*"],
       "@Contexts/*": ["src/contexts/*"],
       "@Pages/*": ["src/pages/*"],
