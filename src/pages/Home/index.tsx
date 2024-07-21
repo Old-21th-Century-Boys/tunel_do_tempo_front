@@ -1,3 +1,5 @@
+import './styles/tailwind.css';
+
 import { PageWrapper as Page } from '@/GlobalStyles';
 
 const Home = () => {
